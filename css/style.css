@@ -5,24 +5,48 @@
  *
  * Made By MaterializeCSS.com
  */
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
+body {
+  background-color: black;
 }
+/* nav ul a,
+nav .brand-logo {
+  color: rgb(210, 211, 154);
+} */
+a.dropdown-button.btn {
+  font-size: 20px;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
 p {
   line-height: 2rem;
 }
+#index-banner {
+opacity: 8;
+}
+.title {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 6em;
+  margin-top: 1.5em;
+}
+.sub {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: 2em;
+}
 
 .button-collapse {
-  color: #26a69a;
+  color: rgba(31, 227, 135, 0.9);
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 550px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  background: rgba(21, 21, 21, 0.7);
 }
   .parallax-container .section {
     width: 100%;
@@ -54,3 +78,5 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* want top photo to have no top margin */
