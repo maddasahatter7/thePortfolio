@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 body {
-  background-color: black;
+  background-color: whitesmoke;
 }
 /* nav ul a,
 nav .brand-logo {
@@ -27,25 +27,31 @@ opacity: 8;
 .parallax {
   height: 100%;
 }
+
+.row {
+  text-align: center;
+  border-color: teal accent-3;
+}
 .title {
   text-align: center;
   color: whitesmoke;
-  font-size: 6em;
-  margin-top: 1.5em;
+  font-size: 7em;
+  margin-top: 1em;
+  font-weight: bolder;
 }
 .sub {
   text-align: center;
   color: whitesmoke;
   font-weight: lighter;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .button-collapse {
-  color: rgba(31, 227, 135, 0.9);
+  color: teal accent-3;
 }
 
 .parallax-container {
-  min-height: 550px;
+  min-height: 660px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
