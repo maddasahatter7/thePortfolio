@@ -27,6 +27,36 @@ opacity: 8;
 .parallax {
   height: 100%;
 }
+.btn-floating  {
+  display: inline-block;
+  color: teal;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 360%;
+  border: 3px solid teal;
+  border: l;
+  border-bottom: teal;
+}
+
+.btn-floating i {
+color: teal;
+border-radius: 50%;
+}
+
+
+.btn {
+  border: 2px bold;
+  border-color: teal;
+  border-radius: 10px;
+
+
+}
 
 .row {
   text-align: center;
