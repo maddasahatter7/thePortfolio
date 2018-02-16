@@ -43,7 +43,18 @@ opacity: 8;
   border: l;
   border-bottom: teal;
 }
+.profpic {
+  width: 325px;
+  height: 350px;
+  text-align: center;
 
+}
+.bio {
+  text-align: center;
+}
+.light {
+  text-align: center;
+}
 .btn-floating i {
 color: teal;
 border-radius: 50%;
