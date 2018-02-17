@@ -8,6 +8,12 @@
 body {
   background-color: #DCDCDC;
 }
+.title {
+font-family: serif;
+}
+.sub {
+  font-family: sans-serif;
+}
 /* nav ul a,
 nav .brand-logo {
   color: rgb(210, 211, 154);
@@ -29,7 +35,7 @@ opacity: 8;
 }
 .btn-floating  {
   display: inline-block;
-  color: teal;
+  color: #800000;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -39,9 +45,9 @@ opacity: 8;
   padding: 0;
   background-color: transparent;
   border-radius: 360%;
-  border: 3px solid teal;
+  border: 3px solid#800000;
   border: l;
-  border-bottom: teal;
+  border-bottom: #800000;
 }
 .profpic {
   width: 325px;
@@ -69,14 +75,14 @@ opacity: 8;
   text-align: center;
 }
 .btn-floating i {
-color: teal;
+color: #800000;
 border-radius: 50%;
 }
 
 
 .btn {
   border: 2px bold;
-  border-color: teal;
+  border-color:#800000;
   border-radius: 10px;
 
 
@@ -140,6 +146,12 @@ border-radius: 50%;
 
 footer.page-footer {
   margin: 0;
+  background-color: transparent;
+
 }
+.footer-copyright {
+  text-align: center;
+}
+
 
 /* want top photo to have no top margin */
