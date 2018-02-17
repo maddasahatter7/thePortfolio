@@ -6,27 +6,20 @@
  * Made By MaterializeCSS.com
  */
 body {
-  background-color: #DCDCDC;
+  background-color: #fff5e6;
 }
 .title {
 font-family: serif;
-
-
+margin-bottom: 0px;
+padding-bottom: 0px;
 }
+
 .sub {
   font-family: sans-serif;
-  word-spacing: 2px;
+  word-spacing: 1.2px;
   text-align: center;
+  padding-top: 10px;
 
-}
-/* nav ul a,
-nav .brand-logo {
-  color: rgb(210, 211, 154);
-} */
-a.dropdown-button.btn {
-  font-size: 20px;
-  margin-top: 2em;
-  margin-left: 1em;
 }
 
 p {
@@ -50,9 +43,9 @@ opacity: 8;
   padding: 0;
   background-color: transparent;
   border-radius: 360%;
-  border: 3px solid#CD5C5C	;
+  border: 2px solid#CD5C5C	;
   border: l;
-  border-bottom: #CD5C5C	;
+  border-bottom:2px solid #CD5C5C	;
 }
 .profpic {
   width: 325px;
@@ -68,13 +61,14 @@ opacity: 8;
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
-
+  font-family: sans-serif;
 }
 .quote {
   text-align: center;
   font-size: 1.2em;
   font-weight: lighter;
   color: #CD5C5C;
+  font-family: serif;
 }
 .light {
   text-align: center;
