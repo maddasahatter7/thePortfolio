@@ -10,9 +10,14 @@ body {
 }
 .title {
 font-family: serif;
+
+
 }
 .sub {
   font-family: sans-serif;
+  word-spacing: 2px;
+  text-align: center;
+
 }
 /* nav ul a,
 nav .brand-logo {
@@ -35,7 +40,7 @@ opacity: 8;
 }
 .btn-floating  {
   display: inline-block;
-  color: #800000;
+  color: #CD5C5C	;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -45,18 +50,18 @@ opacity: 8;
   padding: 0;
   background-color: transparent;
   border-radius: 360%;
-  border: 3px solid#800000;
+  border: 3px solid#CD5C5C	;
   border: l;
-  border-bottom: #800000;
+  border-bottom: #CD5C5C	;
 }
 .profpic {
   width: 325px;
   height: 350px;
   text-align: center;
   border-radius: 50%;
-  border: 3px solid teal;
+  border: 3px solid #CD5C5C;
   border: l;
-  border-bottom: teal;
+  border-bottom: #CD5C5C;
 
 }
 .bio {
@@ -69,20 +74,20 @@ opacity: 8;
   text-align: center;
   font-size: 1.2em;
   font-weight: lighter;
-  color: teal;
+  color: #CD5C5C;
 }
 .light {
   text-align: center;
 }
 .btn-floating i {
-color: #800000;
+color: #CD5C5C	;
 border-radius: 50%;
 }
 
 
 .btn {
   border: 2px bold;
-  border-color:#800000;
+  border-color:#CD5C5C	;
   border-radius: 10px;
 
 
@@ -90,7 +95,7 @@ border-radius: 50%;
 
 .row {
   text-align: center;
-  border-color: teal accent-3;
+  border-color: indianred;
 }
 .title {
   text-align: center;
@@ -107,7 +112,7 @@ border-radius: 50%;
 }
 
 .button-collapse {
-  color: teal accent-3;
+  color: indianred;
 }
 
 .parallax-container {
