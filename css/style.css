@@ -9,6 +9,10 @@ body {
   background-color: #fff5e6;
 }
 
+hr {
+ border-color: indianred;
+}
+
 .title {
 font-family: serif;
 margin-bottom: 0px;
@@ -59,16 +63,16 @@ opacity: 8;
   width: 325px;
   height: 350px;
   text-align: center;
-  border-radius: 50%;
-  border: 3px solid #CD5C5C;
+  border-radius: 360%;
+  border: 7px solid #CD5C5C;
   border: l;
-  border-bottom: #CD5C5C;
+  border-bottom:7px solid #CD5C5C;
 }
 
 
 .bio {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: bold;
   font-family: sans-serif;
 }
@@ -76,10 +80,15 @@ opacity: 8;
 
 .quote {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: lighter;
   color: #CD5C5C;
   font-family: serif;
+}
+
+
+.light {
+  font-size: 1.1em;
 }
 
 
@@ -135,6 +144,9 @@ border-radius: 50%;
   height: auto;
   color: rgba(255,255,255,.9);
   background: rgba(21, 21, 21, 0.7);
+}
+.container {
+  min-height: 400px;
 }
 
 
