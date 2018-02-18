@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 body {
-  background-color: #fff5e6;
+  background-color: #eeccaa;
 }
 
 hr {
@@ -67,6 +67,7 @@ opacity: 8;
   border: 7px solid #CD5C5C;
   border: l;
   border-bottom:7px solid #CD5C5C;
+  z-index: 5px;
 }
 
 
