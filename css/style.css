@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 body {
-  background-color: #eeccaa;
+  background: url(../blackmetal1.jpg);
 }
 
 hr {
@@ -150,6 +150,9 @@ border-radius: 50%;
   min-height: 400px;
 }
 
+/* .section {
+  /* background: url(../tryme.jpg); */
+/* } */ */
 
 .parallax-container .section {
   width: 100%;
